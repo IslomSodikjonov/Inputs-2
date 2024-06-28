@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islom's Homework</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="leftHead">
+            <a href="#">
+                <div class="krug">
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.2C0 0.537258 0.488417 0 1.09091 0H14.9091C15.5116 0 16 0.537258 16 1.2C16 1.86274 15.5116 2.4 14.9091 2.4H1.09091C0.488417 2.4 0 1.86274 0 1.2Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.00078C0 5.33804 0.488417 4.80078 1.09091 4.80078H14.9091C15.5116 4.80078 16 5.33804 16 6.00078C16 6.66352 15.5116 7.20078 14.9091 7.20078H1.09091C0.488417 7.20078 0 6.66352 0 6.00078Z" fill="white"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.8016C0 10.1388 0.488417 9.60156 1.09091 9.60156H14.9091C15.5116 9.60156 16 10.1388 16 10.8016C16 11.4643 15.5116 12.0016 14.9091 12.0016H1.09091C0.488417 12.0016 0 11.4643 0 10.8016Z" fill="white"/>
+                    </svg>                    
+                </div>
+            </a>
+            <div class="black">
+                <a href="#">Главная</a>
+                <a href="#">Каталог</a>
+                <a href="#">Контакты</a>
+            </div>
+        </div>
+        <a href="#">
+            <div class="logo">
+                <img src="./images/Royal Pass.png" alt="#">
+            </div>
+        </a>
+        <a href="#">
+            <div class="rightHead">
+                <p class="username">Ryan Gosling</p>
+                <img src="./images/3d_avatar_26.png" alt="#">
+                <svg width="18" height="10" viewBox="0 0 18 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 1L9 9L1 1" stroke="#143B3F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </a>
+    </header>
+
+    <div class="container">
+        <div class="info">
+            <div class="left_info">
+                <h1 class="infoh1">Информация о заявителе</h1>
+                <p>Заполните форму</p>
+            </div>
+
+            <div class="counter">
+                <p class="counts">All: 16</p>
+                <p class="counts">Need: 9</p>
+                <p class="counts">Succes: <span class="filled">0</span>/9</p>
+                <p class="counts">Error: <span class="need_to_fill">0</span>/9</p>
+            </div>
+        </div>
+
+        <form name="signup">
+            <div class="main_inputs">
+                <div class="inputs">
+                    <p class="inputs_p">First name<span class="red">*</span></p>
+                    <input class="required" name="name" placeholder="Input" id="norm">
+                </div>
+                <div class="inputs">
+                    <p class="inputs_p">Second name</p>
+                    <input id="norm" name="name" placeholder="Input">
+                </div>
+                <div class="inputs">
+                    <p class="inputs_p">Last name<span class="red">*</span></p>
+                    <input class="required" name="name" placeholder="Input" id="norm">
+                </div>
+            </div>
+
+            <div class="main_inputs">
+                <div class="long_inputs">
+                    <p class="inputs_p">Social security</p>
+                    <input id="long" name="number" placeholder="Input">
+                </div>
+                <div class="inputs">
+                    <p class="inputs_p">Birth date<span class="red">*</span></p>
+                    <input id="long2" name="birth" placeholder="Input" class="required">
+                </div>
+            </div>
+            <!-- Part 2 -->
+            <div class="main_inputs">
+                <div class="inputs">
+                    <p class="inputs_p">Email adress<span class="red">*</span></p>
+                    <input id="norm" name="email" placeholder="Input" class="required">
+                </div>
+                <div class="inputs">
+                    <p class="inputs_p">Home phone</p>
+                    <input id="norm" name="phone" placeholder="Input">
+                </div>
+                <div class="inputs">
+                    <p class="inputs_p">Cell phone<span class="red">*</span></p>
+                    <input id="norm" name="phone" placeholder="Input" class="required">
+                </div>
+            </div>
+
+            <div class="main_inputs">
+                <div class="long_inputs">
+                    <p class="inputs_p">Street adress<span class="red">*</span></p>
+                    <input id="long" name="adress" placeholder="Input" class="required">
+                </div>
+                <div class="inputs">
+                    <p class="inputs_p">ZIP Postal code<span class="red">*</span></p>
+                    <input id="long2" name="code" placeholder="Input" class="required">
+                </div>
+            </div>
+            <!-- Part 3 -->
+            <div class="main_inputs">
+                <div class="inputs">
+                    <p class="inputs_p">Appartment, suite etc.</p>
+                    <input id="norm" name="adress" placeholder="Input">
+                </div>
+                <div class="inputs">
+                    <p class="inputs_p">City<span class="red">*</span></p>
+                    <input id="norm" name="city" placeholder="Input" class="required">
+                </div>
+                <div class="inputs">
+                    <p class="inputs_p">State province<span class="red">*</span></p>
+                    <input id="norm" name="city" placeholder="Input" class="required">
+                </div>
+            </div>
+
+            <div class="main_inputs">
+                <div class="inputs">
+                    <p class="inputs_p">Type of residence</p>
+                    <select name="select" id="norm">
+                        <option value="code">Home</option>
+                        <option value="code">House</option>
+                        <option value="code">Appartment</option>
+                    </select>
+                </div>
+
+                <div class="inputs">
+                    <p class="inputs_p">Type of residence</p>
+                    <select name="select" id="norm" >
+                        <option value="code">Home</option>
+                        <option value="code">House</option>
+                        <option value="code">Appartment</option>
+                    </select>
+                </div>
+
+                <div class="inputs">
+                    <p class="inputs_p">Type of residence</p>
+                    <select name="select" id="norm">
+                        <option value="code">Home</option>
+                        <option value="code">House</option>
+                        <option value="code">Appartment</option>
+                    </select>
+                </div>   
+            </div>
+
+            <div class="foot">
+                <button disabled>Отправить форму</button>
+                <div class="footp">
+                    <p class="assighment">Я соглашаюсь с политикой <br> обработки персональных данных</p>
+                </div>
+                <input type="checkbox" id="agreement" />
+            </div>
+
+        </form>
+
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
